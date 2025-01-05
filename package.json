@@ -1,0 +1,36 @@
+{
+  "name": "@idiomatic-ts/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint Config",
+  "type": "module",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "main": "./index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": ">= 9",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "@eslint/js": "9.13.0",
+    "@stylistic/eslint-plugin": "2.9.0",
+    "@types/eslint__js": "8.42.3",
+    "eslint": "9.13.0",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "eslint-plugin-unused-imports": "4.1.4",
+    "globals": "15.11.0",
+    "typescript-eslint": "8.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
