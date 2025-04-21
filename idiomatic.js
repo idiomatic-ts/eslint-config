@@ -7,7 +7,7 @@ import globals from 'globals'
 import tsEslint from 'typescript-eslint'
 
 export const configs = {
-  files: [ '**/*.{js,cjs,mjs,ts}' ],
+  files: [ '**/*.{js,jsx,cjs,mjs,ts,tsx}' ],
   plugins: {
     '@stylistic': stylistic,
     'import': pluginImport,
